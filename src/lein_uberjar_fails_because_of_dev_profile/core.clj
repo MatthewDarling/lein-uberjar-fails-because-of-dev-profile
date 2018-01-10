@@ -1,6 +1,5 @@
-(ns lein-uberjar-fails-because-of-dev-profile.core)
+(ns lein-uberjar-fails-because-of-dev-profile.core
+  (:gen-class))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn -main [& args]
+  (println "App has run successfully"))
